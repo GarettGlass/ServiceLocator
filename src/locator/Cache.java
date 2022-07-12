@@ -23,6 +23,14 @@ public class Cache {
     }
 
     public void addService(MessagingService newService) {
-        services.add(newService);
+        boolean exists = false;
+        for (MessagingService service : services) {
+            if (service.getServiceName().equalsIgnoreCase(newService.getServiceName())) {
+                exists = true;
+            }
+        }
+        if (!exists) {
+            services.add(newService);
+        }
     }
 }
