@@ -1,3 +1,5 @@
+package locator;
+
 import org.jetbrains.annotations.NotNull;
 import service.EmailServiceImpl;
 import service.SmsServiceImpl;
