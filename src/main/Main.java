@@ -1,3 +1,6 @@
+package main;
+
+import locator.ServiceLocator;
 import service.MessagingService;
 
 /*
