@@ -1,3 +1,5 @@
+package locator;
+
 import service.MessagingService;
 
 import java.util.ArrayList;
